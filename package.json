@@ -1,0 +1,23 @@
+{
+  "name": "bmkg",
+  "version": "1.0.0",
+  "description": "lalala",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr4r1/bmkg.git"
+  },
+  "author": "cr4r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cr4r1/bmkg/issues"
+  },
+  "homepage": "https://github.com/cr4r1/bmkg#readme"
+}
