@@ -1,23 +1,33 @@
 {
-  "name": "bmkg",
-  "version": "1.0.0",
-  "description": "lalala",
+  "name": "cek",
+  "version": "0.0.1",
+  "description": "Cek kondisi alam dengan menggunakan keakuratan data dari bmkg.go.id",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1"
+  "directories": {
+    "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cr4r1/bmkg.git"
+    "url": "git+https://github.com/cr4r/bmkg.git"
   },
+  "keywords": [
+    "tes",
+    "cek",
+    "bmkg",
+    "cuaca",
+    "indonesia"
+  ],
   "author": "cr4r",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cr4r1/bmkg/issues"
+    "url": "https://github.com/cr4r/bmkg/issues"
   },
-  "homepage": "https://github.com/cr4r1/bmkg#readme"
+  "homepage": "https://github.com/cr4r/bmkg#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "xml2json": "^0.12.0"
+  }
 }
